@@ -1513,7 +1513,7 @@
 										"$ref": "AAAAAAF9QYHR28JkZ4w="
 									},
 									"edgePosition": 1,
-									"text": "+access_bankStatement"
+									"text": "+access"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1739,17 +1739,17 @@
 										"$ref": "AAAAAAF9QYH8WcMRB6k="
 									},
 									"font": "Arial;13;0",
-									"left": 591,
-									"top": 403,
+									"left": 479,
+									"top": 402,
 									"width": 142.72705078125,
 									"height": 13,
-									"alpha": 1.5713770963346594,
-									"distance": 81.00617260431454,
+									"alpha": -1.6148075004057005,
+									"distance": 31.016124838541646,
 									"hostEdge": {
 										"$ref": "AAAAAAF9QYH8WcMVjsM="
 									},
 									"edgePosition": 1,
-									"text": "+access_bankStatement"
+									"text": "+access"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1998,7 +1998,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
-							"name": "access_bankStatement",
+							"name": "access",
 							"end1": {
 								"_type": "UMLLinkEnd",
 								"_id": "AAAAAAF9QYH8WcMSrpc=",
@@ -2236,7 +2236,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "access_bankStatement",
+							"name": "access",
 							"end1": {
 								"_type": "UMLLinkEnd",
 								"_id": "AAAAAAF9QYHR28JhYdg=",
