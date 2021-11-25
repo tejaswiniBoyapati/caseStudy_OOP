@@ -1502,17 +1502,18 @@
 									"model": {
 										"$ref": "AAAAAAF9QYHR28Jg+ac="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 380,
+									"left": 309,
 									"top": 519,
+									"width": 142.72705078125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
 										"$ref": "AAAAAAF9QYHR28JkZ4w="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "+access_bankStatement"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1737,17 +1738,18 @@
 									"model": {
 										"$ref": "AAAAAAF9QYH8WcMRB6k="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 595,
+									"left": 591,
 									"top": 403,
+									"width": 142.72705078125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 1.5713770963346594,
+									"distance": 81.00617260431454,
 									"hostEdge": {
 										"$ref": "AAAAAAF9QYH8WcMVjsM="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "+access_bankStatement"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1996,6 +1998,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
+							"name": "access_bankStatement",
 							"end1": {
 								"_type": "UMLLinkEnd",
 								"_id": "AAAAAAF9QYH8WcMSrpc=",
@@ -2025,7 +2028,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
-							"name": "dispenserCash"
+							"name": "dispenserCash",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2033,7 +2037,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
-							"name": "amountOptions"
+							"name": "amountOptions",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2041,7 +2046,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
-							"name": "amountWithdrawn"
+							"name": "amountWithdrawn",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2049,7 +2055,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWD6+KZk6tY="
 							},
-							"name": "withdrawalLimit"
+							"name": "withdrawalLimit",
+							"type": ""
 						}
 					]
 				},
@@ -2229,6 +2236,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
+							"name": "access_bankStatement",
 							"end1": {
 								"_type": "UMLLinkEnd",
 								"_id": "AAAAAAF9QYHR28JhYdg=",
@@ -2258,7 +2266,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "dispenserCash"
+							"name": "dispenserCash",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2266,7 +2275,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "amountOptions"
+							"name": "amountOptions",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2274,7 +2284,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "amountWithdrawn"
+							"name": "amountWithdrawn",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2282,7 +2293,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "amountDeposited"
+							"name": "amountDeposited",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2290,7 +2302,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "withdrawlLimit"
+							"name": "withdrawlLimit",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2298,7 +2311,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEBu6aBX2w="
 							},
-							"name": "depositLimit"
+							"name": "depositLimit",
+							"type": ""
 						}
 					]
 				},
@@ -2426,7 +2440,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWELTqaewbI="
 							},
-							"name": "accountID"
+							"name": "accountID",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2434,7 +2449,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWELTqaewbI="
 							},
-							"name": "balanceAmount"
+							"name": "balanceAmount",
+							"type": ""
 						}
 					]
 				},
@@ -2729,7 +2745,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF9QWEc3Ka7e/s="
 							},
-							"name": "customerID"
+							"name": "customerID",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2738,7 +2755,8 @@
 								"$ref": "AAAAAAF9QWEc3Ka7e/s="
 							},
 							"name": "card",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						},
 						{
 							"_type": "UMLSlot",
@@ -2747,7 +2765,8 @@
 								"$ref": "AAAAAAF9QWEc3Ka7e/s="
 							},
 							"name": "PIN",
-							"visibility": "protected"
+							"visibility": "protected",
+							"type": ""
 						}
 					]
 				}
