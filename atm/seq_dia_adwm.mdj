@@ -1,0 +1,105 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLCollaboration",
+					"_id": "AAAAAAF9W9qp3ivt7vI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Collaboration1",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "AAAAAAF9W9qp3yvu5dA=",
+							"_parent": {
+								"$ref": "AAAAAAF9W9qp3ivt7vI="
+							},
+							"name": "Interaction1",
+							"ownedElements": [
+								{
+									"_type": "UMLSequenceDiagram",
+									"_id": "AAAAAAF9W9qp3yvvETg=",
+									"_parent": {
+										"$ref": "AAAAAAF9W9qp3yvu5dA="
+									},
+									"name": "ADWM  Deposit or Withdrawal",
+									"ownedViews": [
+										{
+											"_type": "UMLFrameView",
+											"_id": "AAAAAAF9W9qp4CvwHC4=",
+											"_parent": {
+												"$ref": "AAAAAAF9W9qp3yvvETg="
+											},
+											"model": {
+												"$ref": "AAAAAAF9W9qp3yvvETg="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF9W9qp4CvxabU=",
+													"_parent": {
+														"$ref": "AAAAAAF9W9qp4CvwHC4="
+													},
+													"font": "Arial;13;0",
+													"left": 32.72998046875,
+													"top": 13,
+													"width": 176.5380859375,
+													"height": 13,
+													"text": "ADWM  Deposit or Withdrawal"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF9W9qp4Cvyt7I=",
+													"_parent": {
+														"$ref": "AAAAAAF9W9qp4CvwHC4="
+													},
+													"font": "Arial;13;1",
+													"left": 13,
+													"top": 13,
+													"width": 14.72998046875,
+													"height": 13,
+													"text": "sd"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 8,
+											"top": 8,
+											"width": 857,
+											"height": 689,
+											"nameLabel": {
+												"$ref": "AAAAAAF9W9qp4CvxabU="
+											},
+											"frameTypeLabel": {
+												"$ref": "AAAAAAF9W9qp4Cvyt7I="
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
