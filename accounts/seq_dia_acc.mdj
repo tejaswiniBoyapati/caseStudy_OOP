@@ -42,7 +42,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF9Xc/cPoSnDH4="
 									},
-									"name": "SequenceDiagram1",
+									"name": "Fund Transactions",
 									"ownedViews": [
 										{
 											"_type": "UMLFrameView",
@@ -61,11 +61,11 @@
 														"$ref": "AAAAAAF9Xc/cP4Sps+w="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
-													"top": 13,
-													"width": 115.9052734375,
+													"left": 104.72998046875,
+													"top": 53,
+													"width": 108.18017578125,
 													"height": 13,
-													"text": "SequenceDiagram1"
+													"text": "Fund Transactions"
 												},
 												{
 													"_type": "LabelView",
@@ -74,16 +74,16 @@
 														"$ref": "AAAAAAF9Xc/cP4Sps+w="
 													},
 													"font": "Arial;13;1",
-													"left": 13,
-													"top": 13,
+													"left": 85,
+													"top": 53,
 													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 8,
-											"top": 8,
+											"left": 80,
+											"top": 48,
 											"width": 692,
 											"height": 592,
 											"nameLabel": {
