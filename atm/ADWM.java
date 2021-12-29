@@ -66,7 +66,7 @@ public class ADWM {
 
 	public void getRequest() throws IOException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("----------------------Enter your option----------------------\n1.Withdraw Cash\n2.Deposit Cash\nEnter your option here : ");
+		System.out.println("----------------------Enter your option----------------------\n1.Check Balance\n2.Withdraw Cash\n3.Deposit Cash\nEnter your option here : ");
 		int option=-1;
 		try {
 			option = sc.nextInt();
