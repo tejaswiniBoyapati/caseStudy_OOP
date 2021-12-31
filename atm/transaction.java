@@ -3,13 +3,15 @@ package exam;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class transaction extends ADWM{
+public class transaction implements ADWM,ATM{
 	public float withdraw_cash;
 	public float withdraw_limit;
 	public float deposit_limit;
 	public float total;
 	private float deposit_cash;
 	private float balance;
+	private int[] pin;
+	public int request_option;
 	
 	public transaction() {
 		this.balance = (float) 0.0;
@@ -18,6 +20,17 @@ public class transaction extends ADWM{
 		this.deposit_limit = (float) 10000.0;
 		this.total = (float) 0.0;
 		this.deposit_cash = (float) 0.0;
+		this.pin[0] = 1234;
+		this.pin[1] = 3456;
+		this.pin[2] = 5678;
+		this.request_option = -1;
+	}
+
+	public void setRequestOption(int option) {
+		this.request_option=option;
+	}
+	public void setPin(int pin) {
+		this.pin[0] = pin;
 	}
 	public void setBalance(float balance) {
 		this.balance=balance;
@@ -38,6 +51,12 @@ public class transaction extends ADWM{
 		this.deposit_cash=deposit_cash;
 	}
 	
+	public int[] getPin() {
+		return this.pin;
+	}
+	public int getRequestOption() {
+		return this.request_option;
+	}
 	public float getBalance() {
 		return this.balance;
 	}
@@ -75,7 +94,81 @@ public class transaction extends ADWM{
 	public void deposit_cashError()throws IOException {
 		System.out.println("**********ERROR IN DEPOSIT CASH CHECK DEPOSIT CASH**********");
 	}
+	public void pinError()throws IOException {
+		System.out.println("**********ERROR IN PIN CHECK PIN**********");
+	}
+	public void optionError()throws IOException {
+		System.out.println("**********ERROR in OPTION CHECK OPTION**********");
+	}
 	
+	public void verifyPin() throws IOException {
+		Scanner sc = new Scanner(System.in);
+		int[] temp = getPin();
+		int pin;
+		boolean x=false;
+		
+		System.out.println("Enter Pin : ");
+		pin = sc.nextInt();
+		try {
+			if (pin == temp[0] || pin == temp[1] || pin == temp[2] ) {
+				x= true;
+			}
+		else {
+				x= false;
+			}
+		}
+		catch(Exception e) {
+			pinError();
+		}
+		
+		if(x) {
+			System.out.println("Correct pin");
+		}
+		else{
+			System.out.println("In-correct pin");
+		}
+		sc.close();
+	}
+	public void getRequestATM() throws IOException {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("----------------------Enter your option----------------------\n1.Check Balance\n2.WithDraw Cash\nEnter your option here : ");
+		int option=-1;
+		try {
+			option = sc.nextInt();
+			
+			}
+		catch(Exception e) {
+			this.optionError();
+		}	
+		
+		try {
+			setRequestOption(option);
+			}
+		catch(Exception e) {
+			this.optionError();		
+		}
+		sc.close();
+	}
+	public void getRequestADWM() throws IOException {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("----------------------Enter your option----------------------\n1.Check Balance\n2.Withdraw Cash\n3.Deposit Cash\nEnter your option here : ");
+		int option=-1;
+		try {
+			option = sc.nextInt();
+			
+			}
+		catch(Exception e) {
+			this.optionError();
+		}	
+		
+		try {
+			setRequestOption(option);
+			}
+		catch(Exception e) {
+			this.optionError();		
+		}
+		sc.close();
+	}
 	public float withdraw()throws IOException {
 		Scanner sc = new Scanner(System.in);
 		float bal ;
